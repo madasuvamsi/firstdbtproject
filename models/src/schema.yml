@@ -4,4 +4,7 @@ models:
   - name: src_employees
     description: "Sample employee Model"
     columns:
-      - name: EmployeeId
+      - name : EmployeeId
+      - name : EmployeeName
+      - name : EmployeeSalary
+      - name : EmployeeAddress
