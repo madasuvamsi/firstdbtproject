@@ -5,6 +5,22 @@ models:
     description: "Sample employee Model"
     columns:
       - name : EmployeeId
+        description: "This contains Employee ID"
       - name : EmployeeName
+        description: "This contains Employee Name"
       - name : EmployeeSalary
+        description: "This contains Employee Salary"
       - name : EmployeeAddress
+        description: "This contains Employee address"
+
+  - name: customerpayments
+    description: "this is the model for customer payments"
+    columns:
+     - name: storeid
+       description : "this column contains the store id"
+     - name: creditcard_totalpayment
+       description: "this column contains total credit card payments"
+     - name: debitcard_totalpayment
+       description: "this column contains total debit card payments"
+     - name: total_amount
+       description: "this column contains total payments amount"
